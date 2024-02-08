@@ -5,12 +5,6 @@
 
 #define size 20
 
-/*
-Text-Based (Jumble Word)
-Two-Player (Turn-Based) Challenge
-Emphasis on Data Structures. (Stack & Queue)
-*/
-
 char answer[size];
 char jumble[size];
 char copy[size];
@@ -21,6 +15,7 @@ int jumblePoint = 0;
 int top = -1;
 int rear = -1, front = -1;
 int currentPlayer = 1;
+int score[2];
 
 void push() {
     if (jumblePoint>=size) {
@@ -204,6 +199,8 @@ int main() {
                 chs = check();
                 if (chs == 0) {
                     printf("\nPlayer %d Wins!\n", currentPlayer);
+                    score[currentPlayer-1]++;
+                    printf("\nPlayer 1 score: %d\nPlayer 2 score: %d",score[0],score[1]);
                     printf("\n\nPlay again?(1/0) \n");
                     int chx;
                     scanf("%d",&chx);
