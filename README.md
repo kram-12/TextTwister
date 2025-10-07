@@ -1,6 +1,6 @@
 # TextTwister
 
-**TextTwister** is a command-line game that challenges your word-solving skills using **stack** and **queue** data structures. Players unscramble jumbled words by strategically applying **Last-In-First-Out (LIFO)** and **First-In-First-Out (FIFO)** operations, enhancing both logical thinking and understanding of fundamental data structures.
+**TextTwister** is a command-line game written in **C** that tests your word-solving skills using **stack** and **queue** data structures. Players unscramble jumbled words by strategically applying **Last-In-First-Out (LIFO)** and **First-In-First-Out (FIFO)** operations, improving both logical thinking and understanding of fundamental data structures.
 
 ---
 
@@ -15,54 +15,58 @@ In **TextTwister**, you can perform the following operations:
 * **Reset:** Restart the current word
 * **Check:** Verify if the current arrangement is correct
 
-Advance through levels by solving increasingly challenging words.
+Players advance through levels by unscrambling increasingly challenging words.
 
 ---
 
 ## 🧠 Learning Objectives
 
-* Apply **stack (LIFO)** and **queue (FIFO)** operations in practice
-* Improve **word-solving, logic, and problem-solving skills**
-* Strategically plan moves to unscramble words efficiently
+* Understand and implement **stack (LIFO)** and **queue (FIFO)** operations in C
+* Improve **problem-solving, logic, and word-solving skills**
+* Plan moves strategically to unscramble words efficiently
 
 ---
 
 ## 🛠 Features
 
 * Fully playable in the command line / terminal
-* Real-time feedback for correct and incorrect arrangements
+* Provides real-time feedback on correct or incorrect arrangements
 * Option to reset words and retry
-* Multiple levels with increasing difficulty
+* Levels with increasing difficulty
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Running the Game
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/kram-12/texttwister.git
+git clone https://github.com/kram-12/TextTwister.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd texttwister
+cd TextTwister
 ```
 
-3. Run the game:
+3. Compile the C program using GCC:
 
 ```bash
-python texttwister.py
+gcc TextTwister.c -o texttwister
 ```
 
-*(Requires Python 3)*
+4. Run the game:
+
+```bash
+./texttwister
+```
 
 ---
 
 ## 📚 Technologies Used
 
-* **Python 3**
+* **C Language**
 * Core data structures: **Stack & Queue**
 
 ---
@@ -75,3 +79,7 @@ For questions or suggestions, contact:
 ---
 
 > Made with 💻 and ❤️ to make learning **data structures** fun and interactive.
+
+---
+
+If you want, I can **also create a short, resume-friendly description** for this C project in 2–3 lines. Do you want me to do that?
