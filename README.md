@@ -79,7 +79,3 @@ For questions or suggestions, contact:
 ---
 
 > Made with 💻 and ❤️ to make learning **data structures** fun and interactive.
-
----
-
-If you want, I can **also create a short, resume-friendly description** for this C project in 2–3 lines. Do you want me to do that?
